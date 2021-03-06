@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Photography from './Components/Gallary';
+import MyGallery from './Components/DynamicGallery';
 
 class App extends Component {
 
@@ -43,12 +44,33 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Photography/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Footer data={this.state.resumeData.main}/>
+      <div className="Container">
+        <div className="App">
+          <Header data={this.state.resumeData.main}/>
+          <About data={this.state.resumeData.main}/>
+          <div className="Photography-container row">
+            <div className="Do">
+              <h2>
+                Title 1...
+              </h2>
+              <p>
+              Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
+            <MyGallery />
+            <div className="See">
+              <h2>
+                Title 2...
+              </h2>
+              <p>
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+              </p>
+            </div>
+            <MyGallery />
+          </div>
+          <Resume data={this.state.resumeData.resume}/>
+          <Footer data={this.state.resumeData.main}/>
+        </div>
       </div>
     );
   }

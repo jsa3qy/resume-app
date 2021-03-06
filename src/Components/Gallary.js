@@ -5,13 +5,7 @@ export default class Photography extends React.Component {
   render() {
     return (
       <div>
-        <Gallery photos={PHOTO_SET} />
-        <div className="hidden-xs">
-          <Gallery photos={PHOTO_SET_2} />
-        </div>
-        <div className="hidden-xs">
-          <Gallery photos={PHOTO_SET_3} />
-        </div>
+        <Gallery photos={PHOTO_SET} direction={"column"} />
       </div>
     );
   }
@@ -20,23 +14,23 @@ export default class Photography extends React.Component {
 const PHOTO_SET = [
     {
       src: './images/favoriteShots/teton-yosemite.jpg',
-      width: 4914,
-      height: 3275
+      width: 4.914,
+      height: 3.275
     },
     {
       src: './images/favoriteShots/house-mountain.jpg',
-      width: 5813,
-      height: 3236
+      width: 5.813,
+      height: 3.236
     },
     {
       src: './images/favoriteShots/butt-cave.jpg',
-      width: 2947,
-      height: 3703
+      width: 2.947,
+      height: 3.703
     },
     {
       src: './images/favoriteShots/zion-sunset.jpg',
-      width: 4596,
-      height: 3064
+      width: 4.596,
+      height: 3.064
     }
   ];
 
