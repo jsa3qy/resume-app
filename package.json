@@ -1,18 +1,27 @@
 {
+  "homepage": "http://jsa3qy.github.io/resume-app",
   "name": "personalportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "jquery": "^3.2.1",
+    "photoswipe": "^4.1.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-ga": "^2.3.5",
-    "react-scripts": "1.0.17"
+    "react-photoswipe-gallery": "^1.3.4",
+    "react-scripts": "1.0.17",
+    "react-photo-gallery": "8.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
