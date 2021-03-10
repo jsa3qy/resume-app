@@ -7,7 +7,7 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Photography from './Components/Gallary';
-import MyGallery from './Components/DynamicGallery';
+import { Gallery1, Gallery2} from './Components/DynamicGallery';
 
 class App extends Component {
 
@@ -48,25 +48,19 @@ class App extends Component {
         <div className="App">
           <Header data={this.state.resumeData.main}/>
           <About data={this.state.resumeData.main}/>
-          <div className="Photography-container row">
-            <div className="Do">
-              <h2>
-                Title 1...
-              </h2>
-              <p>
-              Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </p>
+          <div id="photography" className="Photography-container row">
+            <div id="myTravels" className="Do">
+              <div>
+                When I'm not coding I'm a big fan of going places
+              </div>
             </div>
-            <MyGallery />
-            <div className="See">
-              <h2>
-                Title 2...
-              </h2>
-              <p>
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-              </p>
+            <Gallery1 id="myTravels"/>
+            <div id="myPhotos" className="See">
+              <div>
+                And do my best to walk away with the best parts! Check out some of my photography <a target="_blank" href="https://lightroom.adobe.com/gallery/cf875829625a41dc9561fca2b8cfc5ce/albums/41d5a4790de9462b8ad839b20d145fab/assets">here!</a>
+              </div>
             </div>
-            <MyGallery />
+            <Gallery2 />
           </div>
           <Resume data={this.state.resumeData.resume}/>
           <Footer data={this.state.resumeData.main}/>
