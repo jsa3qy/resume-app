@@ -1,0 +1,130 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+.Gallery
+{
+  &-container
+  {
+    overflow: scroll;
+  }
+}
+
+.react-photo-gallery
+{
+  &--gallery
+  {
+    min-width: 1169px;
+    width: 100%;
+    overflow: scroll;
+  }
+}
+
+.Do
+{
+  div
+  {
+    width: 40%;
+  }
+}
+
+.Do
+{
+  grid-row: 1;
+  grid-column: 1;
+  height: 100%;
+  font-size: 35px;
+  line-height: 38px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.See
+{
+  position: relative;
+  padding-top: 35px;
+  grid-row: 2;
+  grid-column: 2;
+
+  h2
+  {
+    color: white;
+    line-height: 100%;
+    width: 30%;
+    top: 0;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: left;
+    z-index: 3;
+    position: absolute;
+  }
+}
+
+.Core
+{
+  &-resumeDownload
+  {
+    cursor: pointer;
+  }
+}
+
+.image-gallery
+{
+  &-image
+  {
+    max-width: 50%;
+  }
+
+  &-slide
+  {
+    margin-top: 5%;
+  }
+}
+
+/** 
+  mobile only sass
+*/
+@media only screen and (max-width: 900px)
+{
+  .Do
+  {
+    grid-row: 1;
+    grid-column: 1;
+
+    div
+    {
+      width: 40%;
+      padding-bottom: 15px;
+    }
+  }
+
+  .See
+  {
+    grid-row: 3;
+    grid-column: 1;
+
+    h2
+    {
+      @media only screen and (max-width: 734px)
+      {
+        width: 45%;
+      }
+
+      @media only screen and (max-width: 500px)
+      {
+        width: 70%;
+      }
+    }
+  }
+
+  .image-gallery
+  {
+    &-image
+    {
+      max-width: 90%;
+    }
+  }
+
+  .hidden-xs {
+    display: none;
+  }
+}

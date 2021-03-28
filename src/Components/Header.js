@@ -5,9 +5,9 @@ class Header extends Component {
 
     if(this.props.data){
       var name = this.props.data.name;
-      var resumeDownload = this.props.resumeDownload;
+      var resumeDownload = this.props.data.resumedownload;
       var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+        return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
       })
     }
 
@@ -31,8 +31,8 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a <a className="smoothscroll" href="#resume">Software Engineer</a>. I'm an <a href="#myTravels" className="smoothscroll">outdoor enthusiast</a>. I'm an <a href="#myPhotos" className="smoothscroll">amateur photographer</a>.</h3>
-            <div>Read about all that below, or see my resume <a href={resumeDownload} download>here</a></div>
+            <h3>I'm a <a className="smoothscroll" href="#resume">Software Engineer</a>. I'm an <a href="#myTravels" className="smoothscroll">outdoor enthusiast</a>. I'm an <a href="#photography" className="smoothscroll">amateur photographer</a>.</h3>
+            <div>Read about all that below, or see my resume <a className="Core-resumeDownload" target="_blank" href={resumeDownload} download>here</a></div>
             <ul className="social">
                {networks}
             </ul>

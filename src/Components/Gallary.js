@@ -4,8 +4,8 @@ import Gallery from 'react-photo-gallery';
 export default class Photography extends React.Component {
   render() {
     return (
-      <div>
-        <Gallery photos={PHOTO_SET} direction={"column"} />
+      <div className="Gallery-container">
+        <Gallery photos={PHOTO_SET_3} direction={"row"} />
       </div>
     );
   }
@@ -35,11 +35,6 @@ const PHOTO_SET = [
   ];
 
   const PHOTO_SET_2 = [
-    {
-      src: './images/favoriteShots/az-pandora.jpg',
-      width: 6000,
-      height: 4000
-    },
     {
       src: './images/favoriteShots/river-sunrise.jpg',
       width: 5463,
@@ -74,18 +69,28 @@ const PHOTO_SET = [
       height: 3654
     },
     {
-      src: './images/favoriteShots/grass-shoot-sunset.jpg',
+      src: './images/favoriteShots/playground_swiss.jpg',
       width: 6000,
       height: 4000
     },
     {
-      src: './images/favoriteShots/pink-moon.jpg',
+      src: './images/favoriteShots/zion-bump.jpg',
       width: 6000,
       height: 4000
     },
     {
-      src: './images/favoriteShots/river-canyon.jpg',
-      width: 5485,
-      height: 3999
+      src: './images/favoriteShots/custer_round_mountains.jpg',
+      width: 2643,
+      height: 3133
+    },
+    {
+      src: './images/favoriteShots/zion-sunset.jpg',
+      width: 4.596,
+      height: 3.064
+    },
+    {
+      src: './images/favoriteShots/goat.jpg',
+      width: 1939,
+      height: 1917
     }
   ]
