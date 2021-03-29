@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.b0132dab.css",
-  "main.css.map": "static/css/main.b0132dab.css.map",
-  "main.js": "static/js/main.b2938d6c.js",
-  "main.js.map": "static/js/main.b2938d6c.js.map"
+  "main.css": "/resume-app/static/css/main.f23d0d24.chunk.css",
+  "main.js": "/resume-app/static/js/main.e23d0c4c.chunk.js",
+  "main.js.map": "/resume-app/static/js/main.e23d0c4c.chunk.js.map",
+  "runtime~main.js": "/resume-app/static/js/runtime~main.4871dddc.js",
+  "runtime~main.js.map": "/resume-app/static/js/runtime~main.4871dddc.js.map",
+  "static/js/2.e7554875.chunk.js": "/resume-app/static/js/2.e7554875.chunk.js",
+  "static/js/2.e7554875.chunk.js.map": "/resume-app/static/js/2.e7554875.chunk.js.map",
+  "index.html": "/resume-app/index.html",
+  "precache-manifest.5a307f6765ff1b0410763463c74e179f.js": "/resume-app/precache-manifest.5a307f6765ff1b0410763463c74e179f.js",
+  "service-worker.js": "/resume-app/service-worker.js",
+  "static/css/main.f23d0d24.chunk.css.map": "/resume-app/static/css/main.f23d0d24.chunk.css.map"
 }
