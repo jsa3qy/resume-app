@@ -4,7 +4,7 @@
     "occupation":"Software Engineer",
     "description":"With two years industry experience, I graduated in 2019 from the University of Virginia Engineering School with a second degree in Physics.",
     "image":"profilepic.jpg",
-    "bio":"My industry work experience to date leans front-end, though my work has also exposed me to everything from writing complex ETLs in Golang, custom API integrations in Java, CLIs in bash, and webscrapers in Python. I have also worked within our alerting system, which uses Go, Prometheus, and Alertmanager on the infrastructure side. Additionally I have educational focus in algorithms, which includes working as a teaching assistant, as well completing grad level course work and research in the broader field.",
+    "bio":"My industry work experience to date leans front-end, though my work has also exposed me to everything from writing complex ETLs in Go, custom API integrations in Java, CLIs in bash, and webscrapers in Python. I have also worked with Prometheus and Alertmanager to construct and maintain an alerting infrastructure. Additionally I have educational focus in algorithms, which includes working as a teaching assistant, as well completing grad level course work and research in the broader field.",
     "contactmessage":"For ease, please feel free to contact me with the form below. otherwise, my personal contact information is also listed!",
     "email": "jessealloy@gmail.com",
     "phone": "703-597-4999",
