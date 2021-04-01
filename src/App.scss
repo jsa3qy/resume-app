@@ -59,6 +59,11 @@
   }
 }
 
+// safari fix hack from forums
+.react-photo-gallery--gallery > div > img {
+  align-self: flex-start;
+}
+
 .Core
 {
   &-resumeDownload
