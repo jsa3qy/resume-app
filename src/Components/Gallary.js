@@ -61,36 +61,43 @@ const PHOTO_SET = [
     {
       src: './images/favoriteShots/lake-rock.jpg',
       width: 6000,
-      height: 4000
+      height: 4000,
+      loading: "lazy"
     },
     {
       src: './images/favoriteShots/foggy-landscape.jpg',
       width: 5845,
-      height: 3654
+      height: 3654,
+      loading: "lazy"
     },
     {
       src: './images/favoriteShots/playground_swiss.jpg',
       width: 6000,
-      height: 4000
+      height: 4000,
+      loading: "lazy"
     },
     {
       src: './images/favoriteShots/zion-bump.jpg',
       width: 6000,
-      height: 4000
+      height: 4000,
+      loading: "lazy"
     },
     {
       src: './images/favoriteShots/custer_round_mountains.jpg',
       width: 2643,
-      height: 3133
+      height: 3133,
+      loading: "lazy"
     },
     {
       src: './images/favoriteShots/zion-sunset.jpg',
       width: 4.596,
-      height: 3.064
+      height: 3.064,
+      loading: "lazy"
     },
     {
       src: './images/favoriteShots/goat.jpg',
       width: 1939,
-      height: 1917
+      height: 1917,
+      loading: "lazy"
     }
   ]
